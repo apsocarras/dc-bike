@@ -1,0 +1,7 @@
+## Conda install 
+# python=3.7
+# esri
+# arcgis 
+# pandas 
+# pyyaml 
+
