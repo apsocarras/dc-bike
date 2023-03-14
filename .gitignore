@@ -3,3 +3,4 @@ plugins/
 .env
 venv/
 __pycache__/
+data/
