@@ -1,6 +1,7 @@
 arcgis 
 pandas 
 pyyaml 
+boto3
 
 # Airflow: 
 # AIRFLOW_VERSION=2.3.2 
