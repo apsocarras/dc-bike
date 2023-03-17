@@ -15,20 +15,22 @@ ETL pipeline extracting trip data from Washignton DC's Capital Bikeshare API and
 ### [Dashboard] (TO-DO)
 
 ### _**Technologies Used**_ 
-* Google Cloud Platform 
-  * BigQuery, Cloud Functions, Cloud Scheduler, Looker Studio
-* Python (Pandas, AWS SDK, GCP SDK)
+* ~~Google Cloud Platform~~
+  * ~~BigQuery, Cloud Functions, Cloud Scheduler, Looker Studio, GCP SDK~~ -- *Shifting to AWS*
+* Python 
 * SQL
+* Looker Studio
+* AWS (Python SDK, S3, Athena, Lambda)
   
 ## Project Structure (WIP)
 ```bash
 ├── bikeshare 
-│   ├── api_data_sources.ipynb
-│   ├── bks_cdc_streaming.ipynb
-│   └── historical_data.ipynb
+│   ├── api_data_sources.ipynb # description of API structure 
+│   ├── bks_cdc_streaming.ipynb # CDC/real-time data updates 
+│   └── historical_data.ipynb # downloading/uploading historical data (see Kaggle)
 ├── crashes 
-│   └── scrap.ipynb
-├── data
+│   └── scrap.ipynb # sandboxing DC OpenData Crash Data 
+├── data 
 ├── img 
 ├── README.md
 └── requirements.txt
