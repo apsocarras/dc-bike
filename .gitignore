@@ -4,3 +4,4 @@ plugins/
 venv/
 __pycache__/
 data/
+bikeshare/data/
