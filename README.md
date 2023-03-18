@@ -27,7 +27,7 @@ ETL pipeline extracting trip data from Washignton DC's Capital Bikeshare API and
 ├── bikeshare 
 │   ├── api_data_sources.ipynb # description of API structure 
 │   ├── bks_cdc_streaming.ipynb # CDC/real-time data updates 
-│   └── historical_data.ipynb # downloading/uploading historical data (see Kaggle)
+│   └── historical_data.ipynb # downloading/uploading/querying historical data
 ├── crashes 
 │   └── scrap.ipynb # sandboxing DC OpenData Crash Data 
 ├── data 
